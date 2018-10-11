@@ -3,7 +3,7 @@ html {
   }
   @media (min-width: 768px) {
     html {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
   
@@ -24,10 +24,19 @@ html {
 
   .marketing{
     margin-top: 6rem;
+    margin-bottom: 6rem;
     max-width: 1000px;
   }
 
-    .marketing .col-lg-4 {
+  @media (min-width: 768px) {
+    .marketing{
+        margin-top: 7rem;
+        margin-bottom: 7rem;
+        max-width: 1000px;
+      }
+  }
+
+  .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
   }
@@ -42,6 +51,7 @@ html {
 
   .features{
     margin-top: 6rem;
+    padding-bottom: 6rem;
     max-width: 1000px;
   }
 
@@ -51,4 +61,9 @@ html {
 
   .card{
     border: 0px;
+  }
+
+  .btn{
+    background-color: #FFFFFF;
+    border: none;
   }
