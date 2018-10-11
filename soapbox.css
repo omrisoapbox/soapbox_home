@@ -1,0 +1,54 @@
+html {
+    font-size: 16px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+
+  /* MARKETING CONTENT
+-------------------------------------------------- */
+
+  .marketing{
+    margin-top: 6rem;
+    max-width: 1000px;
+  }
+
+    .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+
+  .features{
+    margin-top: 6rem;
+    max-width: 1000px;
+  }
+
+  .card-header{
+    background-color: white;
+  }
+
+  .card{
+    border: 0px;
+  }
