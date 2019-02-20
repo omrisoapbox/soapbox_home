@@ -24,6 +24,21 @@ html {
     min-width: 220px;
   }
 
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  html {
+    font-size: 1rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: .1rem;
+    }
+  }
+
   /* MARKETING CONTENT
 -------------------------------------------------- */
 
