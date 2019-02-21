@@ -8,15 +8,20 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="soapbox.css" rel="stylesheet">
+    <link href="css/soapbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 
   </head>
 
-  <div id="navbar">
-    <span class="navbar-text">
-      Navbar text with an inline element
-    </span>
-  </div>
+  <nav class="navbar navbar-light bg-light" id="navbar">
+    <h5 class="font-weight-normal">Soapbox</h5>
+    <button class="btn btn-primary" type="submit">Button</button>
+  </nav>
 
   <header style="background-color:#FFFFFF; padding: .1rem;">
       <div class="container" style="background-color:#FFFFFF">
@@ -45,12 +50,12 @@
 
   <body>
     <div class="container marketing">
-        <div class="pt-1 pb-5 mb-4 text-center">
+        <div class="wow slideInUp pt-1 pb-5 mb-4 text-center">
             <h1>We call it e-volunteering.</h1>
             <h4>And it takes less than a minute a day. So, how does it work?</h4>
         </div>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 wow slideInUp">
                 <div class="row justify-content-center">
                   <img src="icon_1.png" alt="note icon" width="100" height="100">
                 </div>
@@ -61,7 +66,7 @@
                     <p>Or recommend one that is meaningful to you.</p>
                 </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 wow slideInUp">
               <div class="row justify-content-center">
                 <img src="icon_2.png" alt="light icon" width="100" height="100">
               </div>
@@ -72,7 +77,7 @@
                   <p>Ensure your efforts help exactly where you want them to.</p>
               </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 wow slideInUp">
             <div class="row justify-content-center">
               <img src="icon_3.png" alt="coffee icon" width="100" height="100">
             </div>
@@ -205,7 +210,7 @@
     window.onscroll = function() {
       var currentScrollPos = window.pageYOffset;
         if (currentScrollPos < 50) {
-          document.getElementById("navbar").style.top = "-50px";
+          document.getElementById("navbar").style.top = "-55px";
         } else {
           document.getElementById("navbar").style.top = "0";
         }
