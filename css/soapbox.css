@@ -8,11 +8,12 @@ html {
   }
 
   #navbar {
-    background-color: #FFFFF; /* Black background color */
+    background-color: #FFFFFF;
     position: fixed; /* Make it stick/fixed */
     top: -55px; /* Stay on top */
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index: 1;
   }
 
 
@@ -81,7 +82,15 @@ html {
     border: 0px;
   }
 
-  .btn{
-    background-color: #FFFFFF;
-    border: none;
+  .btn.active.focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn.focus:active,
+  .btn:active:focus,
+  .btn:focus {
+    outline: 0 !important;
+    outline-offset: 0  !important;
+    background-image: none  !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
   }
