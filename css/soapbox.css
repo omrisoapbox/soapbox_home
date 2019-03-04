@@ -16,12 +16,6 @@ html {
     z-index: 1;
   }
 
-
-  .jumbotron {
-    background-image: url("background.png");
-    height: 1000px;
-    width: 100%}
-
   .container {
     max-width: 1200px;
   }
@@ -80,6 +74,13 @@ html {
 
   .card{
     border: 0px;
+  }
+
+  .collapseButton{
+    border: 0px;
+    width: 90%;
+    text-align: left;
+    background-color: #FFFFFF;
   }
 
   .btn.active.focus,
