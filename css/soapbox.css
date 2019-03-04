@@ -7,6 +7,10 @@ html {
     }
   }
 
+body {
+    font-family: 'Lato' !important;
+  }
+
   #navbar {
     background-color: #FFFFFF;
     position: fixed; /* Make it stick/fixed */
