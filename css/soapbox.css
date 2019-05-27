@@ -58,6 +58,11 @@ body a{
     height: auto;
   }
 
+  .img-fluid2 {
+    max-width: 80%;
+    height: auto;
+  }
+
   /* MARKETING CONTENT
 -------------------------------------------------- */
 
