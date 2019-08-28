@@ -67,6 +67,11 @@ a:hover{
     height: auto;
   }
 
+  .btn-dark {
+    background-color: #3E3F42;
+    border-color: #3E3F42;
+  }
+
   /* MARKETING CONTENT
 -------------------------------------------------- */
 
