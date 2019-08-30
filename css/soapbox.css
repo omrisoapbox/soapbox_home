@@ -15,9 +15,9 @@ html {
       }
     }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .img-fluid5 {
-      width: 75%;
+      width: 60%;
       max-height: auto;
     }
   }
@@ -78,7 +78,7 @@ a:hover{
   }
 
   .img-fluid5 {
-    max-width: 60%;
+    max-width: 75%;
     max-height: auto;
   }
 
