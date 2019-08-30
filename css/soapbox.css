@@ -1,11 +1,19 @@
 html {
     font-size: 12px;
   }
-  @media (min-width: 768px) {
+
+@media (min-width: 768px) {
     html {
       font-size: 16px;
     }
   }
+
+@media (max-width: 768px) {
+    body h1.display-4{
+        letter-spacing: -1px !important;
+        font-size: 32px;
+      }
+    }
 
 body {
     font-family: 'Muli' !important;
@@ -59,12 +67,12 @@ a:hover{
 
   .img-fluid {
     max-width: 60%;
-    max-height: 40%;
+    max-height: auto;
   }
 
-  .img-fluid2 {
-    max-width: 100%;
-    height: auto;
+  .img-fluid5 {
+    max-width: 60%;
+    max-height: auto;
   }
 
   .btn-dark {
