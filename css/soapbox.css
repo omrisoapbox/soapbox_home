@@ -58,13 +58,12 @@ a:hover{
   }
 
   .img-fluid {
-    max-width: 70%;
+    max-width: 60%;
     height: auto;
-    width: 100% \9;
   }
 
   .img-fluid2 {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
   }
 
