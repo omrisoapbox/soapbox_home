@@ -15,6 +15,13 @@ html {
       }
     }
 
+@media (max-width: 768px) {
+    .img-fluid5 {
+      width: 75%;
+      max-height: auto;
+    }
+  }
+
 body {
     font-family: 'Muli' !important;
     letter-spacing: 0px !important;
