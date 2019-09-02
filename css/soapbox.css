@@ -82,44 +82,19 @@ a:hover{
     max-height: auto;
   }
 
-  .btn-dark {
-    background-color: #EB1D42;
-    border-color: #EB1D42;
+  .btn-dark, .btn-dark:active:focus, .btn-dark:active, .btn-dark:focus, .btn-dark:hover {
+    background-color: #EB1D42 !important;
+    border-color: #EB1D42 !important;
   }
 
-  .btn-dark:active:focus {
-    background-color: #EB1D42;
-    border-color: #EB1D42;
-  }
-
-  .btn-dark:hover {
-    background-color: #EB1D42;
-    border-color: #EB1D42;
-  }
-
-  .btn-danger {
-    background-color: #EB1D42;
-    border-color: #EB1D42;
+  .btn-danger, .btn-danger:active:focus, .btn-danger:active, .btn-danger:focus, .btn-danger:hover {
+    background-color: #EB1D42 !important;
+    border-color: #EB1D42 !important;
     font-size: 18px;
     padding: 10px;
     margin-top: 10px;
   }
 
-  .btn-danger:active:focus {
-    background-color: #EB1D42;
-    border-color: #EB1D42;
-    font-size: 18px;
-    padding: 10px;
-    margin-top: 10px;
-  }
-
-  .btn-danger:hover {
-    background-color: #EB1D42;
-    border-color: #EB1D42;
-    font-size: 18px;
-    padding: 10px;
-    margin-top: 10px;
-  }
   /* MARKETING CONTENT
 -------------------------------------------------- */
 
