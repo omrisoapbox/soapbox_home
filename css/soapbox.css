@@ -87,7 +87,20 @@ a:hover{
     border-color: #EB1D42;
   }
 
+  .btn-dark:active {
+    background-color: #EB1D42;
+    border-color: #EB1D42;
+  }
+
   .btn-danger {
+    background-color: #EB1D42;
+    border-color: #EB1D42;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .btn-danger:active {
     background-color: #EB1D42;
     border-color: #EB1D42;
     font-size: 18px;
