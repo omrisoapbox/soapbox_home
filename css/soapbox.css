@@ -92,6 +92,11 @@ a:hover{
     border-color: #EB1D42;
   }
 
+  .btn-dark:hover {
+    background-color: #EB1D42;
+    border-color: #EB1D42;
+  }
+
   .btn-danger {
     background-color: #EB1D42;
     border-color: #EB1D42;
@@ -108,6 +113,13 @@ a:hover{
     margin-top: 10px;
   }
 
+  .btn-danger:hover {
+    background-color: #EB1D42;
+    border-color: #EB1D42;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+  }
   /* MARKETING CONTENT
 -------------------------------------------------- */
 
