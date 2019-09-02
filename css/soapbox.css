@@ -87,7 +87,7 @@ a:hover{
     border-color: #EB1D42;
   }
 
-  .btn-dark:active {
+  .btn-dark:active:focus {
     background-color: #EB1D42;
     border-color: #EB1D42;
   }
@@ -100,7 +100,7 @@ a:hover{
     margin-top: 10px;
   }
 
-  .btn-danger:active {
+  .btn-danger:active:focus {
     background-color: #EB1D42;
     border-color: #EB1D42;
     font-size: 18px;
