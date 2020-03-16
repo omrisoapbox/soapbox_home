@@ -31,8 +31,8 @@ html {
 
   @media (max-width: 768px) {
     body p1{
-          font-size: 1.8rem !important;
-          line-height: 35px !important;
+          font-size: 1.6rem !important;
+          line-height: 28px !important;
             }
   }
 
