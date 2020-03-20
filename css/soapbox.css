@@ -64,6 +64,11 @@ body h1{
           font-size: 24px;
             }
 
+.form-control::-webkit-input-placeholder {
+          color: #bbbbbb;
+          opacity: 0.6;
+            }
+
 body p{
       letter-spacing: 0px !important;
       font-weight: 300 !important;
