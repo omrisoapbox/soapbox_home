@@ -88,16 +88,14 @@
                <img src="download.svg" class= "d-md-none" style="width: 150px;padding-top: 20px;" alt="download image"> <br>
                <p2 class="d-md-none"> <br> </p2>
                <form id="sms-form" method="post" class="d-none d-md-block">
-                 <div class="form-group row">
-                   <div class="col-8">
-                     <div class="input-group">
-                       <input id="sms-input" name="sms-input" type="text" name="input_111" value="" tabindex="111" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd">
-                     </div>
-                   </div>
-                   <div class="col-4">
-                     <button type="button" onClick="submitToAPI(event)" class="btn btn-dark" >TEXT ME THE APP</button>
-                   </div>
-                 </div>
+
+                 <div class="input-group mb-3">
+                  <input id="sms-input" name="sms-input" type="text" class="form-control" placeholder="(512) 444-4444" aria-label="Cell number" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" onClick="submitToAPI(event)" style="background-color: #EC1C43;color:#FFFFFF;border-color:#EC1C43;">Text me the app</button>
+                  </div>
+                </div>
+
                </form>
                <p2 class="d-none" id='checkYourPhone' style="color:#EC1C43;">Check you phone for an invitation.</p2>
             </div>
